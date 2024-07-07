@@ -1,20 +1,210 @@
-.resume_container {
-  max-width: 600px;
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
-}
-h1 {
-  margin-bottom: 10px;
-  color: #41108e;
-}
-h2 {
-  margin-bottom: 5px;
-  color: #850e0e;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.resume_skills {
-  margin-bottom: 5px;
-  color: #192bd0;
+.header, .footer {
+    background-color: #f0f0f0;
+    height: 100px;
+}
+
+.cv_nav {
+    text-align: center;
+}
+
+.cv_nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cv_nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.cv_nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: color 0.3s;
+}
+
+.cv_nav a:hover {
+    color: #007bff;
+}
+
+.main_container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.main_cv {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.block {
+    flex: 1;
+    width: 48%; /* Adjust width for two columns */
+}
+
+.block h2 {
+    margin-bottom: 10px;
+}
+
+.main_contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.main_info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_info span {
+    font-size: 20px;
+}
+
+.nav_contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contacts {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact span:first-of-type {
+    font-weight: bold;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
+.main_photo {
+    width: 250px;
+    border-radius: 25px;
+}
+
+.main_photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.main_about {
+        max-width: 800px;
+        margin: 0 auto; /* Добавляем авто-марджин для центрирования */
+        padding: 20px; /* Добавляем внутренний отступ для визуального разделения */
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: justify; /* Выравниваем текст по ширине блока */
+        font-size: 16px;
+        color: #666;
+        line-height: 1.6;
+}
+
+.block {
+    flex: 1;
+    background-color: #fff;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.block h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #333;
+}
+
+.block p, .block ul {
+    font-size: 16px;
+    color: #666;
+}
+
+.block ul {
+    padding-left: 20px;
+}
+
+.block ul li {
+    margin-bottom: 5px;
+}
+
+.block pre {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+}
+
+.block pre code {
+    font-size: 14px;
+    color: #333;
+}
+
+.block a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.block a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px; /* Отступ от основного контента */
+}
+
+.footer_container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_links a {
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+.footer_links img {
+    width: 20%;
+    height: auto;
+}
+
+.footer_info {
+    flex: 1;
+    text-align: center;
+
+}
+
+.footer_course img {
+    width: 50%; /* Размер логотипа курса */
+    height: auto;
 }
