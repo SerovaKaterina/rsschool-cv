@@ -29,18 +29,17 @@ I'm a junior front-end developer with a deep desire to learn new technologies an
 
 ## CODE EXAMPLE (from Codewars)
 ```javascript
-// Function to check if a number is prime
-function isPrime(num) {
-    if (num <= 1) return false;
-    if (num <= 3) return true;
-    if (num % 2 === 0 || num % 3 === 0) return false;
-    for (let i = 5; i * i <= num; i += 6) {
-        if (num % i === 0 || num % (i + 2) === 0) return false;
+<h2 id="code-example">Code Example (from Codewars)</h2>
+        <pre><code>function toCamelCase(str) {
+    let words = str.split(/[-_]/);
+    for (let i = 1; i < words.length; i++) {
+        words[i] = words[i][0].toUpperCase() + words[i].slice(1);
     }
-    return true;
+    return words.join('');
 }
-
-console.log(isPrime(11)); // Output: true
+console.log(toCamelCase("hello-world")); // Вывод: helloWorld
+console.log(toCamelCase("snake_case_example")); // Вывод: snakeCaseExample
+console.log(toCamelCase("the-first-example")); // Вывод: theFirstExample</code></pre>
 
 ```
 

@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #f4e7f7;
+}
+
 .header, .footer {
     background-color: #938696;
     height: 100px;
@@ -40,6 +44,7 @@
 .main_container {
     max-width: 800px;
     margin: 0 auto;
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -183,14 +188,11 @@
     max-width: 800px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
 .footer_links a {
     text-decoration: none;
-    margin-right: 20px;
-    font-weight: bold;
 }
 
 .footer_links img {
@@ -201,6 +203,8 @@
 .footer_info {
     flex: 1;
     text-align: center;
+    padding-right: 40px;
+    font-weight: bolder;
 
 }
 
