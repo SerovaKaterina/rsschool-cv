@@ -4,13 +4,20 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #f4e7f7;
+    font-size: large;
+   
+}
+
 .header, .footer {
-    background-color: #f0f0f0;
+    background-color: #938696;
     height: 100px;
 }
 
 .cv_nav {
     text-align: center;
+    padding-top: 50px;
 }
 
 .cv_nav ul {
@@ -39,6 +46,7 @@
 .main_container {
     max-width: 800px;
     margin: 0 auto;
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -53,14 +61,14 @@
 
 .block {
     flex: 1;
-    width: 48%; /* Adjust width for two columns */
+    width: 48%;
 }
 
 .block h2 {
     margin-bottom: 10px;
 }
 
-.main_contacts {
+#contacts {
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -111,14 +119,14 @@
     border-radius: 25px;
 }
 
-.main_about {
+#about {
         max-width: 800px;
-        margin: 0 auto; /* Добавляем авто-марджин для центрирования */
-        padding: 20px; /* Добавляем внутренний отступ для визуального разделения */
+        margin: 0 auto;
+        padding: 20px;
         background-color: #fff;
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        text-align: justify; /* Выравниваем текст по ширине блока */
+        text-align: justify;
         font-size: 16px;
         color: #666;
         line-height: 1.6;
@@ -165,7 +173,7 @@
 }
 
 .block a {
-    color: #007bff;
+    color: #a781d0;
     text-decoration: none;
 }
 
@@ -175,22 +183,18 @@
 
 .footer {
     text-align: center;
-    padding: 20px 0;
-    margin-top: 20px; /* Отступ от основного контента */
+    padding-top: 10px;
 }
 
 .footer_container {
     max-width: 800px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
 .footer_links a {
     text-decoration: none;
-    margin-right: 20px;
-    font-weight: bold;
 }
 
 .footer_links img {
@@ -201,10 +205,12 @@
 .footer_info {
     flex: 1;
     text-align: center;
+    padding-right: 40px;
+    font-weight: bolder;
 
 }
 
 .footer_course img {
-    width: 50%; /* Размер логотипа курса */
+    width: 50%;
     height: auto;
 }
