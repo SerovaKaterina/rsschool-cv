@@ -12,8 +12,7 @@
             <ul>
                 <li><a href="#about">ABOUT ME</a></li>
                 <li><a href="#contacts">CONTACTS</a></li>
-                <li><a href="#education">EDUCATION</a></li>
-                <li><a href="#courses">COURSES</a></li>
+                <li><a href="#education">EDUCATION & COURSES</a></li>
                 <li><a href="#skills">SKILLS</a></li>
                 <li><a href="#code-example">CODE EXAMPLE</a></li>
                 <li><a href="#projects">PROJECTS</a></li>
@@ -23,7 +22,7 @@
     <main class="main">
         <div class="main_container">
             <div class="main_cv">
-                <div class="main_contacts">
+                <div id="contacts">
                     <div class="main_info">
                         <h1>Serova Katerina</h1>
                         <span>Frontend Developer</span>
@@ -57,16 +56,20 @@
             </div>
         </div>
         <div id="about">
+            <h2>ABOUT ME</h2>
             <p class="main_about">I'm a junior front-end developer with a deep desire to learn new technologies and improve my skills. My goal is to become a professional in the field of programming interface development.</p>
         </div>
         <div class="main_container">
             <div class="block">
-                <h2>Education & Courses</h2>
-                <p>Poltava State University named after T.G. Shevchenko<br>Specialty: Financial Management</p>
-                <p>Itgirlschool<br>Hekslet</p>
+                <h2 id="education">Education & Courses</h2>
+                <ul>
+                    <li>Transnistrian State University named after T.G. Shevchenko<br>Specialty: Financial Management</li>
+                    <li>Itgirlschool</li>
+                    <li>Hexlet</li>
+                </ul>
             </div>
             <div class="block">
-                <h2>Skills</h2>
+                <h2 id="skills">Skills</h2>
                 <ul>
                     <li>HTML5</li>
                     <li>CSS3</li>
@@ -80,7 +83,7 @@
         </div>
         <div class="main_container">
             <div class="block">
-                <h2>Code Example (from Codewars)</h2>
+                <h2 id="code-example">Code Example (from Codewars)</h2>
                 <pre><code>// Function to check if a number is prime
 function isPrime(num) {
     if (num <= 1) return false;
@@ -95,7 +98,7 @@ function isPrime(num) {
 console.log(isPrime(11)); // Output: true</code></pre>
             </div>
             <div class="block">
-                <h2>Projects</h2>
+                <h2 id="projects">Projects</h2>
                 <ul>
                     <li><a href="https://serovakaterina.github.io/project-practice-2/" target="_blank">Psychologist listing page</a> </li>
                     <li><a href="https://serovakaterina.github.io/project-practice-js/" target="_blank">Math simulator for children

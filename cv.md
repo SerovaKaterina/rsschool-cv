@@ -1,30 +1,49 @@
-# **_Серова Екатерина_**
+# Serova Katerina
+Frontend Developer
 
----
+![photo](assets/img/foto.jpg)
 
-## _Контакты:_
+## ABOUT ME
+I'm a junior front-end developer with a deep desire to learn new technologies and improve my skills. My goal is to become a professional in the field of programming interface development.
 
-- **_Email:_** k.serova.k@yandex.ru
-- **_Телефон:_** +(373)777-61-888
-- **GitHub:** [github.com/SerovaKaterina](https://github.com/SerovaKaterina)
+## CONTACTS
+- **Phone:** +(373)777-61-888
+- **E-mail:** [k.serova.k@yandex.ru](mailto:k.serova.k@yandex.ru)
+- **Telegram:** [@Serova_Katerina](https://t.me/Serova_Katerina)
+- **GitHub:** [https://github.com/SerovaKaterina](https://github.com/SerovaKaterina)
 
----
+## EDUCATION & COURSES
+- **Transnistrian State University named after T.G. Shevchenko**
+  Specialty: Financial Management
+- **Itgirlschool**
+- **Hexlet**
 
-## _О себе:_
+## SKILLS
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- React.js
+- Responsive Web Design
+- Version Control (Git)
+- Problem Solving
 
-### **_Я начинающий Frontend Developer с глубоким стремлением к изучению новых технологий и совершенствованию своих навыков. Моя цель — стать профессионалом в области разработки программного интерфейса._**
+## CODE EXAMPLE (from Codewars)
+```javascript
+// Function to check if a number is prime
+function isPrime(num) {
+    if (num <= 1) return false;
+    if (num <= 3) return true;
+    if (num % 2 === 0 || num % 3 === 0) return false;
+    for (let i = 5; i * i <= num; i += 6) {
+        if (num % i === 0 || num % (i + 2) === 0) return false;
+    }
+    return true;
+}
 
----
+console.log(isPrime(11)); // Output: true
 
-## _Навыки:_
+```
 
-- **_Языки программирования:_** JavaScript
-- **_Фреймворки:_** React, Node.js
-- **_Системы контроля версий:_** Git, GitHub
-- **_Инструменты разработки:_** VS Code
-
----
-
-## _Образование:_
-
-### **_Приднестровский Государственный Университет им.Т.Г.Шевченко_**
+## PROJECTS
+- [Psychologist listing page](https://serovakaterina.github.io/project-practice-2/)
+- [Math simulator for children](https://serovakaterina.github.io/project-practice-js/)
