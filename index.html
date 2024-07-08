@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Серова Катя</title>
 </head>
@@ -44,8 +47,7 @@
                             </li>
                             <li class="contact">
                                 <span>GitHub:</span>
-                                <a href="https://github.com/SerovaKaterina"
-                                    target="_blank">https://github.com/SerovaKaterina</a>
+                                <a href="https://github.com/SerovaKaterina" target="_blank">https://github.com/SerovaKaterina</a>
                             </li>
                         </ul>
                     </nav>
@@ -63,9 +65,10 @@
             <div class="block">
                 <h2 id="education">Education & Courses</h2>
                 <ul>
-                    <li>Transnistrian State University named after T.G. Shevchenko<br>Specialty: Financial Management</li>
+                    <li>Transnistrian State University named after T.G. Shevchenko</li>
                     <li>Itgirlschool</li>
                     <li>Hexlet</li>
+                    <li>English:В1</li>
                 </ul>
             </div>
             <div class="block">
@@ -84,16 +87,13 @@
         <div class="main_container">
             <div class="block">
                 <h2 id="code-example">Code Example (from Codewars)</h2>
-        <pre><code>function toCamelCase(str) {
-    let words = str.split(/[-_]/);
-    for (let i = 1; i < words.length; i++) {
-        words[i] = words[i][0].toUpperCase() + words[i].slice(1);
-    }
-    return words.join('');
+                <pre><code>function makeUpperCase(str) {
+    return str.toUpperCase();
 }
-console.log(toCamelCase("hello-world")); // Вывод: helloWorld
-console.log(toCamelCase("snake_case_example")); // Вывод: snakeCaseExample
-console.log(toCamelCase("the-first-example")); // Вывод: theFirstExample</code></pre>
+
+console.log(makeUpperCase("hello")); // Вывод: HELLO
+console.log(makeUpperCase("world")); // Вывод: WORLD
+console.log(makeUpperCase("javascript")); // Вывод: JAVASCRIPT</code></pre>
             </div>
             <div class="block">
                 <h2 id="projects">Projects</h2>

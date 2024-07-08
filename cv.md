@@ -29,18 +29,13 @@ I'm a junior front-end developer with a deep desire to learn new technologies an
 
 ## CODE EXAMPLE (from Codewars)
 ```javascript
-<h2 id="code-example">Code Example (from Codewars)</h2>
-        <pre><code>function toCamelCase(str) {
-    let words = str.split(/[-_]/);
-    for (let i = 1; i < words.length; i++) {
-        words[i] = words[i][0].toUpperCase() + words[i].slice(1);
-    }
-    return words.join('');
+function makeUpperCase(str) {
+    return str.toUpperCase();
 }
-console.log(toCamelCase("hello-world")); // Вывод: helloWorld
-console.log(toCamelCase("snake_case_example")); // Вывод: snakeCaseExample
-console.log(toCamelCase("the-first-example")); // Вывод: theFirstExample</code></pre>
 
+console.log(makeUpperCase("hello")); // Вывод: HELLO
+console.log(makeUpperCase("world")); // Вывод: WORLD
+console.log(makeUpperCase("javascript")); // Вывод: JAVASCRIPT
 ```
 
 ## PROJECTS
